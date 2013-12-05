@@ -6,8 +6,9 @@ netboot image over [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Pr
 
 ### Requirements
 
-- TFTP server (see below) at 172.16.0.1
+- a PXE-capable BIOS and NIC
 - DHCP server serving 172.16.0.0/24 ip's
+- TFTP server (see below) at 172.16.0.1
 
 ### Usage
 
@@ -38,6 +39,8 @@ See `ubuntu-installer/amd64/boot-screens/txt.cfg` (line 6).
 - Configure `Enable network booting` under the LAN DHCP server config under `Services` > `DHCP Server`, see below:
 
 ![tftp booting](images/tftpboot.png)
+
+- click `Save`, and `Apply changes`, this will restart the DHCP service on your pfSense. You can now use PXE/Network boot.
 
 ### After installation
 
