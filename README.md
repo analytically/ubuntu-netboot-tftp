@@ -7,13 +7,18 @@ netboot image, using only [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Tran
 
 ### Requirements
 
-- TFTP server (see below)
-- DHCP server
+- TFTP server (see below) at 172.16.0.1
+- DHCP server serving 172.16.0.0/24 ip's
 
 ### Usage
 
 - customize `hostnames` (mac address to hostname mappings)
 - customize `preseed.cfg` with your values
+
+#### Why 172.16.x.x?
+
+It's a larger address range than 192.168.x.x and doesn't get in the way of my home networking! You're welcome to
+change this in `postpreseed.sh`.
 
 ### PXE
 
@@ -37,7 +42,7 @@ See `ubuntu-installer/amd64/boot-screens/txt.cfg` (line 6).
 
 ### After installation
 
-- SSH Password: PQmb6JxU
+- user: ansibler, password: PQmb6JxU
 - continue with my [Hadoop Ansible Playbook](https://github.com/analytically/hadoop-ansible)
 
 ### Warning
