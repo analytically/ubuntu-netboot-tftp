@@ -1,9 +1,8 @@
 ubuntu-netboot-tftp
 ===================
 
-Automating server installation, before being configurable by
-[hadoop-ansible](https://github.com/analytically/hadoop-ansible) - using the [Ubuntu](http://www.ubuntu.com) 13.10
-netboot image, using only [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol).
+Automating server installation by using [PXE boot](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) and the [Ubuntu](http://www.ubuntu.com) 13.10
+netboot image over [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol).
 
 ### Requirements
 
