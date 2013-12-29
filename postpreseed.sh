@@ -4,7 +4,7 @@
 tftp 172.16.0.1 -c get hostnames
 
 # get the MAC address
-mac=$(/sbin/ifconfig | grep 'eth0\|p2p1\|em1\|igb0' | tr -s ' ' | cut -d ' ' -f5)
+mac=$(/sbin/ifconfig | grep 'eth0\|p2p1\|p4p1\|em1\|igb0' | tr -s ' ' | cut -d ' ' -f5)
 
 # get the correct hostname for this MAC address
 hostname=$(cat hostnames | grep $mac | cut -d"-" -f2)
