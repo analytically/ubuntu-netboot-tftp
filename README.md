@@ -17,8 +17,7 @@ netboot image over [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Pr
 
 #### Why 172.16.x.x?
 
-It's a larger address range than 192.168.x.x and doesn't get in the way of my home networking! You're welcome to
-change this in `postpreseed.sh`.
+It doesn't get in the way of my home networking! You're welcome to change this in `postpreseed.sh`.
 
 ### PXE
 
