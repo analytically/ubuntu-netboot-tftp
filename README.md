@@ -1,7 +1,7 @@
 ubuntu-netboot-tftp
 ===================
 
-Automating server installation by using [PXE boot](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) and the [Ubuntu](http://www.ubuntu.com) 13.10
+Automating server installation by using [PXE boot](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) and the [Ubuntu](http://www.ubuntu.com) 14.04 LTS
 netboot image over [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol).
 
 ### Requirements
@@ -56,4 +56,4 @@ with [pfSense](http://www.pfsense.org/). The bug in `debian-installer-utils` is 
 
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-Copyright 2013 [Mathias Bogaert](mailto:mathias.bogaert@gmail.com).
+Copyright 2013-2014 [Mathias Bogaert](mailto:mathias.bogaert@gmail.com).

@@ -1,7 +1,7 @@
                   0fWelcome to Ubuntu!07                                          09F107
 
-This is an installation system for Ubuntu 13.10.
-It was built on 20101020ubuntu271.
+This is an installation system for Ubuntu 14.04.
+It was built on 20101020ubuntu318.
 
 0fHELP INDEX07
 
